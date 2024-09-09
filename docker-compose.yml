@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  backend:
+    build:
+      context: ./admin_projet_final
+    ports:
+      - "10001:5173"
+    environment:
+      NODE_ENV: development
+  frontend:
+    build:
+      context: ./codebook-vitrine
+    ports:
+      - "10000:3000"
+    environment:
+      NODE_ENV: development

@@ -1,0 +1,59 @@
+bdd_firestorm_products.txt
+
+# Partie Front 
+
+# dependencies
+/codebook-vitrine/node_modules
+/codebook-vitrine/.pnp
+/codebook-vitrine/.pnp.js
+
+# testing
+/codebook-vitrine/coverage
+
+# production
+/codebook-vitrine/build
+
+# misc
+/codebook-vitrine/.DS_Store
+/codebook-vitrine/.env.local
+/codebook-vitrine/.env.development.local
+/codebook-vitrine/.env.test.local
+/codebook-vitrine/.env.production.local
+
+/codebook-vitrine/npm-debug.log*
+/codebook-vitrine/yarn-debug.log*
+/codebook-vitrine/yarn-error.log*
+
+
+# Partie Back
+
+# Logs
+/admin_projet_final/logs
+/admin_projet_final/*.log
+/admin_projet_final/npm-debug.log*
+/admin_projet_final/yarn-debug.log*
+/admin_projet_final/yarn-error.log*
+/admin_projet_final/pnpm-debug.log*
+/admin_projet_final/lerna-debug.log*
+
+/admin_projet_final/node_modules
+/admin_projet_final/.DS_Store
+/admin_projet_final/dist
+/admin_projet_final/dist-ssr
+/admin_projet_final/coverage
+/admin_projet_final/*.local
+
+/admin_projet_final/cypress/videos/
+/admin_projet_final/cypress/screenshots/
+
+# Editor directories and files
+/admin_projet_final/.vscode/*
+/admin_projet_final/!.vscode/extensions.json
+/admin_projet_final/.idea
+/admin_projet_final/*.suo
+/admin_projet_final/*.ntvs*
+/admin_projet_final/*.njsproj
+/admin_projet_final/*.sln
+/admin_projet_final/*.sw?
+
+/admin_projet_final/*.tsbuildinfo
